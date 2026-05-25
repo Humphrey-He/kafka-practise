@@ -10,9 +10,10 @@ bin/
 dist/
 *.test
 coverage.out
+.gocache/
+.gomodcache/
 
 # Local environment
 .env
 .env.*
 *.local
-

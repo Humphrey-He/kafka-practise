@@ -39,6 +39,7 @@ tasks/
     external-db-consistency/
   05-rate-limit-backpressure/
     README.md
+    dlq-retry/
     token-bucket/
     pause-resume/
     bounded-worker-pool/
@@ -138,4 +139,3 @@ tasks/
 - 验证方式
 - 常见问题
 - 生产注意事项
-

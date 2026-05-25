@@ -1,0 +1,18 @@
+kafka:
+  brokers:
+    - localhost:9092
+  client_id: kafka-practise-local
+  version: 3.6.0
+  producer:
+    required_acks: all
+    retry_max: 3
+    return_successes: true
+    idempotent: false
+  consumer:
+    group_id: kafka-practise-group
+    offset_initial: oldest
+    auto_commit: false
+  tls:
+    enabled: false
+  sasl:
+    enabled: false
