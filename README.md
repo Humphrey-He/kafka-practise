@@ -11,6 +11,7 @@
 - [任务 README 模板](docs/任务README模板.md)：后续每个任务文件夹可直接套用。
 - [配置映射](docs/配置映射.md)：Java Kafka Client 常见配置与 Sarama 配置字段对照。
 - [排障手册](docs/排障手册.md)：按常见故障现象组织排查路径。
+- [Kafka 六大生产问题](docs/Kafka六大生产问题.md)：消息丢失、重复、顺序、重试、offset 提交和扩容 rebalance。
 - [术语表](docs/术语表.md)：Kafka 与 Sarama 高频术语速查。
 - [运行手册](docs/运行手册.md)：本地环境、验证命令和测试建议。
 

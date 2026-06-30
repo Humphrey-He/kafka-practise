@@ -52,6 +52,9 @@ tasks/
     static-membership/
     slow-consumer-demo/
     partition-balance-report/
+  07-production-scenarios/
+    README.md
+    six-scenarios/
   07-idempotency-dedup/
     README.md
     producer-idempotent/
@@ -129,6 +132,10 @@ tasks/
 新建任务 README 时，直接复制：
 
 - [任务 README 模板](../docs/任务README模板.md)
+
+已落地任务：
+
+- [07-production-scenarios/six-scenarios](07-production-scenarios/six-scenarios/README.md)：模拟丢消息、重复消费、乱序、失败重试、offset 早提交和 consumer 扩容 rebalance。
 
 并至少补齐：
 
